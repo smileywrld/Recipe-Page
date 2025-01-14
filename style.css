@@ -37,19 +37,20 @@ main p {
 	font-size: 16px;
 }
 
-main section {
+main .preparation {
+	margin-top: 20px;
 	background-color: hsl(30, 18%, 87%);
 	font-family: outfit, sans-serif;
 	padding: 1.5rem;
 	border-radius: 20px;
 }
 
-main section h2 {
+main .preparation h2 {
 	font-weight: 400;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
- section ul li{
+.preparation ul li {
 	margin-bottom: 15px;
 	padding-left: 20px;
 }
