@@ -15,9 +15,7 @@
 }
 
 main {
-	padding: 2rem;
-	width: 75vw;
-	margin: 0 auto;
+	width: 80vw;
 }
 
 main img {
@@ -38,19 +36,115 @@ main p {
 }
 
 main .preparation {
-	margin-top: 20px;
-	background-color: hsl(30, 18%, 87%);
+	margin-top: 2%;
+	background-color: hsl(30, 54%, 90%);
 	font-family: outfit, sans-serif;
 	padding: 1.5rem;
 	border-radius: 20px;
+	margin-bottom: 2%;
 }
 
 main .preparation h2 {
 	font-weight: 400;
-	margin-bottom: 20px;
+	margin-bottom: 2%;
 }
 
 .preparation ul li {
 	margin-bottom: 15px;
 	padding-left: 20px;
+}
+
+.ingredents {
+	margin-top: 2%;
+	font-family: youngSerif, Arial, Helvetica, sans-serif;
+	border-bottom: solid 1px hsl(30, 18%, 87%);
+	padding-bottom: 20px;
+}
+
+.ingredents h2,
+.nutrition h2,
+.instruction h2 {
+	color: hsl(14, 45%, 36%);
+	margin-bottom: 2%;
+	font-family: youngSerif, Arial, Helvetica, sans-serif;
+}
+
+.ingredents ul li {
+	margin-bottom: 15px;
+	padding-left: 20px;
+	font-family: outfit, sans-serif;
+	font-size: 16px;
+	list-style-type: square;
+}
+
+.ingredents ul li::marker {
+	color: hsl(14, 45%, 36%);
+}
+
+.instruction {
+	margin-top: 2%;
+	font-family: youngSerif, Arial, Helvetica, sans-serif;
+	border-bottom: solid 1px hsl(30, 18%, 87%);
+	padding-bottom: 20px;
+}
+
+.instruction ol li {
+	margin-bottom: 15px;
+	padding-left: 20px;
+	font-family: outfit, sans-serif;
+	font-size: 16px;
+}
+
+.instruction ol li::marker {
+	color: hsl(14, 45%, 36%);
+	font-family: outfit, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+.instruction ol li strong,
+b {
+	color: hsl(14, 45%, 36%);
+}
+
+.nutrition {
+	margin-top: 2%;
+	font-family: youngSerif, Arial, Helvetica, sans-serif;
+	padding-bottom: 20px;
+}
+
+.nutrition p {
+	font-family: outfit, sans-serif;
+	font-size: 16px;
+}
+
+.nutrition table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: outfit, sans-serif;
+}
+
+.nutrition tr:not(:last-child) {
+	border-bottom: solid 1px hsl(30, 18%, 87%);
+	font-size: 16px;
+}
+
+.nutrition tr td {
+	padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+	main {
+		width: 100%;
+	}
+
+	main img {
+		display: block;
+		width: 100%;
+		border-radius: 0;
+	}
+
+	section {
+		padding: 1rem;
+		margin: 0.5rem;
+	}
 }
